@@ -1,6 +1,6 @@
 {
   "name": "aspace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add space between English and CJK",
   "main": "ASpace.js",
   "scripts": {
