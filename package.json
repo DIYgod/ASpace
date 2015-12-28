@@ -1,10 +1,10 @@
 {
   "name": "aspace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add space between English and CJK",
-  "main": "space.js",
+  "main": "ASpace.js",
   "scripts": {
-    "test": "mocha --require should test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,10 @@
   },
   "keywords": [
     "space",
-    "Chinese"
+    "Chinese",
+    "Japanese",
+    "Korean",
+    "CJK"
   ],
   "author": "DIYgod",
   "license": "MIT",
@@ -24,5 +27,10 @@
     "gulp": "^3.9.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.1"
+  },
+  "dependencies": {
+    "gulp-uglify": "^1.5.1",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2"
   }
 }
