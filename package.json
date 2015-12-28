@@ -1,0 +1,28 @@
+{
+  "name": "aspace",
+  "version": "0.0.1",
+  "description": "Add space between English and CJK",
+  "main": "space.js",
+  "scripts": {
+    "test": "mocha --require should test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIYgod/ASpace.git"
+  },
+  "keywords": [
+    "space",
+    "Chinese"
+  ],
+  "author": "DIYgod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DIYgod/ASpace/issues"
+  },
+  "homepage": "https://github.com/DIYgod/ASpace#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1"
+  }
+}
